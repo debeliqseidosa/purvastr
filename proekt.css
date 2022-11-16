@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(109, 107, 107);
+}
+
+ 
+ 
+
+
+ ul{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  margin-right: 20px;
+}
+ 
+ header nav ul li a {
+     color:rgb(250, 243, 243) ;
+     text-decoration: none;
+     font-size: 22px;
+     padding: 14px 16px;
+     
+ }
+ ul :hover {
+  background-color: #111;
+ }
+  h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+  .a1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .a2{
+    display: flex;
+    
+    padding-bottom: 40px;
+  }
+
+.img1{
+     width: 35%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+  .img2{
+    width: 20%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+p{
+    text-align: center;
+    font-size: 26px;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+
+
+footer p{
+  font-size: 10px;
+}
+
+
+
+
+
+.responsive{
+    display: flex;
+}
